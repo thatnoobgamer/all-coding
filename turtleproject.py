@@ -1,0 +1,56 @@
+import turtle
+draw = turtle.Turtle()
+draw.getscreen()
+draw.ht()
+draw.speed(150)
+draw.circle(20)
+draw.rt(90)
+draw.fd(100)
+draw.bk(90)
+draw.lt(50)
+draw.fd(30)
+draw.bk(30)
+draw.rt(100)
+draw.fd(30)
+draw.bk(30)
+draw.lt(50)
+draw.fd(90)
+draw.lt(50)
+draw.fd(30)
+draw.bk(30)
+draw.rt(100)
+draw.fd(30)
+draw.bk(30)
+draw.pu()
+draw.lt(50)
+draw.lt(180)
+draw.fd(140)
+draw.rt(90)
+draw.fd(50)
+draw.pd()
+for i in range(0,24):
+    ++i
+    draw.fd(50)
+    draw.rt(45)
+    draw.rt(80)
+
+draw.rt(60)
+draw.pu()
+draw.fd(150)
+draw.pd()
+
+for c in range(0,24):
+    ++c
+    draw.fd(50)
+    draw.lt(45)
+    draw.lt(80)
+
+draw.rt(45)
+draw.pu()
+draw.fd(150)
+draw.lt(15)
+draw.pd()
+for d in range(0,10):
+    ++d
+    draw.fd(50)
+    draw.lt(20)
